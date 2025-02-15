@@ -1,0 +1,243 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+.navbar{
+    position: sticky !important;
+    top:0px;
+    z-index:999;
+    width:100%;
+    box-shadow:5px 5px 20px greenyellow ;
+    overflow: hidden;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight:800;
+    color:#29f700 !important;
+    overflow: hidden;
+}
+.nav-item{
+    font-size:20px;
+    font-weight:500;
+    overflow: hidden;
+}
+.nav-link:hover{
+    font-size:25px;
+    font-weight:500;
+    color:goldenrod !important;
+    overflow: hidden;
+}
+nav button{
+    background-color:coral;
+    border:0px;
+    color:white;
+    padding:5px 15px 5px 15px;
+    border-radius:10px !important;
+    overflow: hidden;
+}
+
+/* -----Home------ */
+
+.img {
+    background:linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.3)),url("https://wallpaper.forfun.com/fetch/2e/2e0e582530e34a1a196bdcb75140be15.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height:100vh;
+    overflow: hidden;
+    animation:none;
+}
+header h1{
+    font-size:80px;
+    color:midnightblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:150px;
+    overflow: hidden;
+    text-shadow:10px 10px 20px rgb(7, 174, 234) !important;
+    animation:header 2s ease-in-out;
+}
+header p:nth-child(2){
+    font-size:40px;
+    color:cyan;
+    text-shadow:10px 10px 20px rgb(72, 0, 255);
+    overflow: hidden;
+    animation:header 2s ease-in-out;
+}
+header p:nth-child(3){
+    font-size:15px;
+    width:50%;
+    margin:auto;
+    overflow: hidden;
+    color:cyan;
+    animation:header 2s ease-in-out;
+}
+header button{
+    padding:10px 35px 10px 35px;
+    border:0px;
+    border-radius:10px !important;
+    margin-top:20px;
+    background-color: green;
+    overflow: hidden;
+    color:white;
+    animation:header 2s ease-in-out;
+}
+header button:hover{
+    padding:10px 40px 10px 40px;
+    border:5px solid green;
+    overflow: hidden;
+    border-radius:10px !important;
+    background-color:transparent;
+    color:white;
+}
+@keyframes header{
+    0%{
+        transform: translatey(100%);
+        transform: scale(0.5);
+    }
+}
+
+/* -----About----- */
+
+.about{
+    background-color: black !important;
+    /* background:linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.3)),url("https://img.freepik.com/premium-photo/bunch-different-fruits-including-one-with-green-leaf_665782-129.jpg"); */
+    background-color: none;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+}
+.icon{
+    overflow: hidden;
+    animation:icon 2s ease-in-out;
+}
+.fresh:hover{
+    animation: fresh 2s ease-in-out;
+}
+@keyframes fresh {
+    0%{
+    transform : translatey(50px);
+    }
+    100%{
+    transform : translatey(-50px);
+    }
+}
+
+.content{
+    color:rgb(7, 201, 240)!important;
+    background-color: none !important;
+    overflow: hidden;
+    font-weight:600 !important;
+    font-size:20px;
+    animation:content 2s ease-in-out;
+}
+.about a:hover{
+    background-color:transparent;
+    color:white;
+    padding:10px 40px 10px 40px;
+    border:5px solid orange;
+    overflow: hidden;
+    border-radius:10px !important;
+}
+@keyframes content{
+    0%{
+        transform: translatex(100%);
+    }
+}
+@keyframes icon{
+    0%{
+        transform: translatey(100%);
+        
+    }
+}
+
+/* ------Product------- */
+
+.products{
+    background:linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.3)),url("https://png.pngtree.com/background/20230611/original/pngtree-many-fruits-are-placed-next-to-each-other-in-different-piles-picture-image_3142149.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+    min-height:100vh !important;
+}
+.card:hover{
+    overflow: hidden;
+    color:rgb(255, 0, 132);
+    transform: scale(1.09);
+}
+.black{
+    height:400px;
+    overflow: hidden;
+    background-color: rgb(200, 247, 225) !important;
+    animation:black 2s ease-in-out;
+}
+@keyframes black{
+    0%{
+        transform: translatex(100%);
+        transform: scale(0.5);
+    }
+}
+
+/* -----Contact----- */
+
+.contact{
+    background:linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.3)),url("https://img.freepik.com/premium-photo/fresh-fruits-composition-attractive-engaging-hd-wallpaper-background-photo_853645-71206.jpg");
+    background-size: cover;
+    overflow: hidden;
+    color:white;
+    background-position: center;
+    width: 100%;
+    min-height:100vh;
+}
+.form-control{
+    animation:form-control 2s ease-in-out;
+}
+.form-control:hover{
+    border:5px solid rgb(104, 241, 6);    
+    box-shadow: 0 0 20px #29f700;
+}
+label{
+    font-weight:500;
+    animation:label 2s ease-in-out;
+
+}
+.work{
+    margin-top:100px !important;
+    font-weight:500;
+    animation:work 2s ease-in-out;
+}c
+.contact button:hover{
+    background-color:transparent;
+    color:white;
+    padding:10px 40px 10px 40px;
+    border:5px solid #29f700;
+    overflow: hidden;
+    border-radius:10px !important;
+}
+@keyframes work{
+    0%{
+        transform: translatey(-100%);
+        
+    }
+}
+@keyframes form-control{
+    0%{
+        transform: translatey(-100%);
+        
+    }
+}
+@keyframes label{
+    0%{
+        transform: translatex(100%);
+       
+    }
+}
+
+
+
+

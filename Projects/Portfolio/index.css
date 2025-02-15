@@ -1,0 +1,36 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+aside{
+    display:flex;
+    gap:20px;
+}
+.dall{
+    font-size:25px !important;
+    color:purple !important;
+}
+.tall{
+    font-size:20px !important;
+}
+.tall:hover{
+    color:purple !important;
+}
+@media only screen and (min-width:300px) and (max-width:490px)
+{
+.dall{
+        font-size:50px !important;
+        margin-left:110px;
+        
+    }
+    .tall{
+        margin-left:25px;
+    }
+}
+@media only screen and (min-width:490px) and (max-width:600px)
+{
+    .dall{
+
+    }
+}

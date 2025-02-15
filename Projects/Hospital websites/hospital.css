@@ -1,0 +1,202 @@
+*{ 
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+.navbar{
+    background-color: teal !important;
+    position: sticky !important;
+    top:0px;
+    z-index:999;
+    box-shadow:5px 5px 20px teal ;
+}
+.navbar-brand{
+    font-size:25px;
+    font-weight:800;
+}
+.home{
+    color:white;
+    font-size:20px;
+    font-weight:500;
+    border-bottom:2px solid transparent;
+}
+.home:hover{
+    color:white;
+    border-bottom:2px solid orange;
+}
+nav button{
+    background-color:orange;
+    border:0px;
+    color:white;
+    padding:5px 15px 5px 15px;
+    border-radius:10px !important;
+}
+
+/* ------Home------- */
+
+.img {
+    background:linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.3)), url("https://st4.depositphotos.com/13193658/31231/i/450/depositphotos_312311388-stock-photo-smiling-nurse-uniform-sitting-table.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height:100vh;
+
+}
+.first{
+    animation:first 2s ease-in-out;
+}
+.first h1{
+    color:orange;
+}
+.img h1 {
+    color:orange;
+    font-size:50px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    animation:first 2s ease-in-out;
+    transition: 3s;
+}
+.img p:nth-child(2){
+    color:teal !important;
+    font-size:25px;
+    font-weight:500;
+    transition:3s;
+    margin-top:20px;
+}
+.img :nth-child(3){
+    font-size:15px;
+    transition:3s;
+    width:600px;
+    margin-top:20px;
+}
+.img button{
+    background-color:teal;
+    border:0px;
+    margin-top:20px;
+    color:white;
+    padding:5px 15px 5px 15px;
+    border-radius:10px !important;
+}
+.img button:hover{
+    background-color:orange;
+    border:2px solid teal;
+}
+@keyframes first{
+    0%{
+        transform: translatey(-100%);
+    
+    }
+}
+
+/* -----About----- */
+
+.about{
+    background:linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.3)),url("https://st4.depositphotos.com/3051589/19673/i/450/depositphotos_196732776-stock-photo-stethoscope-laptop-doctor-working-hospital.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height:100vh;
+}
+.second{
+    margin-top:100px;
+}
+.aboutus{
+    color:white;
+    transition: 3s;
+    animation:aboutus 2s ease-in-out;
+}
+.aboutus h2{
+    color:orange;
+}
+.aboutus p{
+    font-size:20px;
+    font-weight:500px;
+}
+.img-fluid{
+    border-radius:100px;
+    border:5px solid teal;
+    animation:right 2s ease-in-out;
+
+}
+.img-fluid:hover{
+    transform: scale(1.09);
+    box-shadow:0 0 20px orange;
+
+}
+@keyframes right{
+    0%{
+        transform: translatex(100%);
+    }
+}
+@keyframes aboutus{
+    0%{
+        transform: translatex(-100%);
+    }
+}
+
+/* ------Services------ */
+
+.services{
+    background:linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.3)),url("https://st2.depositphotos.com/1011643/5749/i/450/depositphotos_57495407-stock-photo-doctor-bandaging-patient.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height:100vh;
+}
+.for{
+    animation:for 2s ease-in-out;
+}
+.card {
+    margin-bottom: 30px;
+}
+.card1{
+    box-shadow:0 0 30px teal;
+}
+.card:hover{
+    transform: scale(1.09);
+}
+.card-title{
+    color:teal !important;
+}
+@keyframes for{
+    0%{
+        transform: translatey(100%);
+        transform: scale(0.5);
+    }
+}
+.for:hover{
+    animation:for 2s ease-in-out;
+
+}
+@keyframes for:hover{
+    0%{
+        transform: translatex(100%);
+        transform: scale(0.5);
+    }
+}
+
+/* ------Contact------- */
+
+.contact{
+    background:linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.3)),url("https://panipathearthospital.com/images_banner/Slider-banner-1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height:100vh;
+}
+section {
+    padding: 60px;
+}
+footer {
+    background-color: #343a40;
+}
+footer p {
+    margin: 0;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+

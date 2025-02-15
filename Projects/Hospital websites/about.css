@@ -1,0 +1,84 @@
+
+*{ 
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+.navbar{
+    background-color: teal !important;
+    position: sticky !important;
+    top:0px;
+    z-index:999;
+    box-shadow:5px 5px 20px teal ;
+}
+.navbar-brand{
+    font-size:25px;
+    font-weight:800;
+}
+.home{
+    color:white;
+    font-size:20px;
+    font-weight:500;
+    border-bottom:2px solid transparent;
+}
+.home:hover{
+    color:white;
+    border-bottom:2px solid orange;
+}
+nav button{
+    background-color:orange;
+    border:0px;
+    color:white;
+    padding:5px 15px 5px 15px;
+    border-radius:10px !important;
+}
+
+/* -----About----- */
+
+.about{
+    background:linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.3)),url("https://st4.depositphotos.com/3051589/19673/i/450/depositphotos_196732776-stock-photo-stethoscope-laptop-doctor-working-hospital.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height:100vh;
+}
+.second{
+    margin-top:100px;
+}
+.aboutus{
+    color:white;
+    transition: 3s;
+    animation:aboutus 2s ease-in-out;
+}
+.aboutus h2{
+    color:orange;
+}
+.aboutus p{
+    font-size:20px;
+    font-weight:500px;
+}
+.img-fluid{
+    border-radius:100px;
+    border:5px solid teal;
+    animation:right 2s ease-in-out;
+
+}
+.img-fluid:hover{
+    transform: scale(1.09);
+    box-shadow:0 0 20px orange;
+
+}
+@keyframes right{
+    0%{
+        transform: translatex(100%);
+    }
+}
+@keyframes aboutus{
+    0%{
+        transform: translatex(-100%);
+    }
+}
+
+
+
+

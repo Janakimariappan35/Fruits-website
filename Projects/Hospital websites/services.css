@@ -1,0 +1,80 @@
+*{ 
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+.navbar{
+    background-color: teal !important;
+    position: sticky !important;
+    top:0px;
+    z-index:999;
+    box-shadow:5px 5px 20px teal ;
+}
+.navbar-brand{
+    font-size:25px;
+    font-weight:800;
+}
+.home{
+    color:white;
+    font-size:20px;
+    font-weight:500;
+    border-bottom:2px solid transparent;
+}
+.home:hover{
+    color:white;
+    border-bottom:2px solid orange;
+}
+nav button{
+    background-color:orange;
+    border:0px;
+    color:white;
+    padding:5px 15px 5px 15px;
+    border-radius:10px !important;
+}    
+
+/* ------Service------ */
+
+.services{
+    background:linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.3)),url("https://st2.depositphotos.com/1011643/5749/i/450/depositphotos_57495407-stock-photo-doctor-bandaging-patient.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height:130vh;
+}
+.for{
+    animation:for 2s ease-in-out;
+}
+.card {
+    margin-bottom: 30px;
+}
+.card1{
+    box-shadow:0 0 30px teal;
+}
+.card:hover{
+    transform: scale(1.09);
+}
+.card-title{
+    color:teal !important;
+}
+@keyframes for{
+    0%{
+        transform: translatey(100%);
+        transform: scale(0.5);
+    }
+}
+.for:hover{
+    animation:for 2s ease-in-out;
+
+}
+@keyframes for:hover{
+    0%{
+        transform: translatex(100%);
+        transform: scale(0.5);
+    }
+}
+
+
+
+
+
+

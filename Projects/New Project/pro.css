@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #444;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero .artist-name {
+    font-size: 4rem;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .hero .tagline {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    animation: slideIn 1.5s ease-in-out;
+  }
+  
+  /* Gallery Section */
+  .gallery {
+    padding: 4rem 0;
+    background-color: #ffffff;
+  }
+  
+  .art-piece {
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .art-piece:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* About Section */
+  .about {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #fdfbfb, #ebedee);
+    text-align: center;
+    color: #555;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 4rem 0;
+    background-color: #f5f5f5;
+  }
+  
+  .contact a {
+    color: #ff7e5f;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
